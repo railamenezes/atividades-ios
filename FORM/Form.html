@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body style="background-color: darksalmon;">
+
+    <header>
+        <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Cadastro</h1>
+    </header>
+
+    <article>
+        <!--iniciando formulario-->
+
+        <form action="index.html" >
+            <label for="cNOME">Seu nome:</label>
+            <input type="text" size="35" id="cnome" required="required"/>
+
+            <br>
+            <br>
+            <label for="cIDADE">Idade:</label>
+            <input type="text" size="35" id="cnome" required="required"/>
+
+             <br>
+             <br>
+            <label for="cEMAIL">E-mail:</label>
+            <input type="text" size="35" id="cnome" required="required"/>
+
+            <!--Bloco de seleção radio-->
+            <h3>Escolha seu estado</h3>
+            <input type="radio" name="tipo" id="sp" value="C"  >
+            <label for="sp">São Paulo</label>
+
+            <br>
+            <br>
+
+            <input type="radio" name="tipo" id="ba" value="C"  >
+            <label for="ba">Bahia</label>
+
+            <br>
+            <br>
+
+            <input type="radio" name="tipo" id="mg" value="C"  >
+            <label for="mg">Mato Grosso</label>
+
+            <br>
+
+             <!--Bloco de seleção checkbox-->
+             <h3>Você prefere:</h3>
+            <input type="checkbox" name="tipo" id="fi" value="C"  >
+            <label for="fi">Livro físico</label>
+
+            <br>
+            <br>
+
+            <input type="checkbox" name="tipo" id="eb" value="C"  >
+            <label for="eb">E-book</label>
+
+            <br>
+            <br>
+
+            <input type="checkbox" name="tipo" id="ab" value="C"  >
+            <label for="ab">Áudio book</label>
+
+            <!--Elemento select (lista suspensa)-->
+            <h3>Gênero literário preferido:</h3>
+
+            <select name="genero" id="genero">
+                <option value="escolher"></option>
+                <option value="romance">Romance</option>
+                <option value="ficçao">Ficção</option>
+                <option value="fantasia">Fantasia</option>
+                <option value="horror">Horror</option>
+                <option value="poesia">Poesia</option>
+
+            </select>
+
+            <!--Elemento datalist (lista suspensa)-->
+            <h3> Para você, qual a melhor livraria?</h3>
+
+            <input list="browsers"/>
+            <datalist id="browsers">
+                <option value="Amazon">
+                <option value="Saraiva">
+                <option value="Livraria Cultura">
+                <option value="Livraria da Travessa">
+                <option value="Estante Virtual">
+
+            </datalist>
+
+            <br>
+            <br>
+            <!--Elemento textarea-->
+        <fieldset>
+            <legend>Escreva uma frase do seu livro preferido:</legend>
+
+            <textarea name="frase" id="frase" rows="10" cols="20" rows="10"></textarea>
+
+        </fieldset> 
+
+            <br>
+            <br>
+            <input type="submit" value="Enviar"/> 
+
+        </form>
+    </article>
+            
+            <br>
+
+    <footer>
+        <small>copyright <sub>&copy;</sub>-Todos os direitos reservados</small>
+    </footer>
+    
+</body>
+</html>

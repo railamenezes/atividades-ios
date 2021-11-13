@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+h1{
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 25px;
+}
+
+
+/* propriedades border e padding*/
+
+#border{
+   border: solid  6px red;
+   padding: 25px;
+   text-align: center;
+   
+}
+
+/* propriedades figure e figcaption*/
+  
+#figure{
+   font-size: 20px;
+   font-weight: bold;
+   width: 280px;
+   border: brown 6px double;
+   text-align: center;
+}
+/* propriedades background-img*/
+
+#background{
+   width: 500px;
+   height: 400px;
+   background-image: url(série\ 2.jpg);
+   background-repeat: no-repeat;
+   color: blue;
+   text-align: center;
+}
+
+/* propriedade margin*/
+
+#margin{
+   width: 400px;
+   height: 300px;
+   margin: 80px;
+   font-size: 18px;
+}
+/* propriedades float e clear*/
+
+#float{
+   margin: 20px;
+   border: solid 6px red;
+   text-align: center;
+}
+#float p{
+   clear: both;
+   text-align: center;
+}
+
+/* propriedades box-sizing e contente-box*/
+
+#boxsizing{
+   margin: 30px 30px 30px 30px;
+   box-sizing: border-box;
+  
+   border: solid 6px brown;
+}
+
+#contentbox{
+   box-sizing: content-box;
+   margin: 60px;
+   border: solid 6px brown;
+}
+
