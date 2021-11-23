@@ -1,0 +1,99 @@
+
+
+body{
+    background-color: rgb(136, 125, 125);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#container {
+    width: 80%;
+    margin: auto;
+}
+#container h1{
+    font-size: 30px;
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.categorias {
+    margin-top: 20px;
+    border: 1px rgb(17, 16, 16) solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+.categorias h2 {
+    text-align: center;
+}
+.categorias ul {
+    padding: 15px;
+    list-style: none;
+}
+.categorias li {
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333;
+}
+.btn{
+    background-color: rgb(17, 16, 16);
+    border: none;
+    color: seagreen;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+/*Pseudoclasse*/
+
+a:hover{
+    color: forestgreen;
+}
+a:active{
+    color: gold;
+}
+.lista li:first-child {
+    background: greenyellow;
+}
+.lista li:nth-child(4) {
+    background: rgb(14, 230, 68);
+}
+.lista li:last-child {
+    background: yellow;
+}
+
+/*Pseudoelementos*/
+
+p::first-letter{
+    color: rgb(182, 231, 68);
+    font-size: 100%;
+}
+p::first-line{
+    color: chartreuse;
+}
+::selection{
+    color: greenyellow;
+    background-color: red;
+}
+
+/*Media Query*/
+
+@media(max-width:600px) {
+    .categorias {
+       background-color: burlywood;
+       flex-wrap: wrap;
+    }
+
+    #container h1{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media(max-width:480px) {
+  #container h1{
+        height: 40px;
+        background-color: burlywood;
+    }  
+}
