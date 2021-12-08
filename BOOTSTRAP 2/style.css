@@ -1,0 +1,16 @@
+body{
+    width: 100vw;
+    height: 100ch;
+    padding: 1rem;
+}
+
+.header{
+    margin:0.25rem 1rem;
+}
+
+.divlista{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    width: 50rem;   
+}
+
